@@ -11,20 +11,20 @@ return {
                 base01 = "#929292", -- Lighter background (status bars)
                 base02 = "#1F1F1F", -- Selection background
                 base03 = "#929292", -- Comments, invisibles
-                base04 = "#F9F5F4", -- Dark foreground
-                base05 = "#ffffff", -- Default foreground
-                base06 = "#ffffff", -- Light foreground
-                base07 = "#F9F5F4", -- Light background
+                base04 = "#e6efff", -- Dark foreground
+                base05 = "#e6efff", -- Default foreground
+                base06 = "#e6efff", -- Light foreground
+                base07 = "#e6efff", -- Light background
 
                 -- Accent colors (base08-base0F)
                 base08 = "#F44336", -- Variables, errors, red
-                base09 = "#fe9088", -- Integers, constants, orange
-                base0A = "#dd726a", -- Classes, types, yellow
+                base09 = "#f44336", -- Integers, constants, orange
+                base0A = "#a99b7a", -- Classes, types, yellow
                 base0B = "#e75a50", -- Strings, green
-                base0C = "#db9e9a", -- Support, regex, cyan
-                base0D = "#df7e76", -- Functions, keywords, blue
-                base0E = "#e18a84", -- Keywords, storage, magenta
-                base0F = "#f1b6b2", -- Deprecated, brown/yellow
+                base0C = "#99a4af", -- Support, regex, cyan
+                base0D = "#8484a0", -- Functions, keywords, blue
+                base0E = "#a7a6c6", -- Keywords, storage, magenta
+                base0F = "#a99b7a", -- Deprecated, brown/yellow
             },
         },
         config = function(_, opts)

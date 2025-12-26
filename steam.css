@@ -1,12 +1,12 @@
 :root {
     /* The main accent color and the matching text value */
-    --adw-accent-bg-rgb: 223, 126, 118 !important;
+    --adw-accent-bg-rgb: 132, 132, 160 !important;
     --adw-accent-fg-rgb: 31, 31, 31 !important;
-    --adw-accent-rgb: 223, 126, 118 !important;
+    --adw-accent-rgb: 132, 132, 160 !important;
 
 	/* destructive-action buttons */
     --adw-destructive-bg-rgb: 244, 67, 54 !important;
-    --adw-destructive-fg-rgb: 255, 255, 255 !important;
+    --adw-destructive-fg-rgb: 230, 239, 255 !important;
     --adw-destructive-rgb: 244, 67, 54 !important;
 
 	/* Levelbars, entries, labels and infobars. These don't need text colors */
@@ -14,10 +14,10 @@
     --adw-success-fg-rgb: 31, 31, 31 !important;
     --adw-success-rgb: 231, 90, 80 !important;
 
-    --adw-warning-bg-rgb: 241, 182, 178 !important;
+    --adw-warning-bg-rgb: 169, 155, 122 !important;
     --adw-warning-fg-rgb: 31, 31, 31 !important;
     --adw-warning-fg-a: 0.8 !important;
-    --adw-warning-rgb: 241, 182, 178 !important;
+    --adw-warning-rgb: 169, 155, 122 !important;
 
     --adw-error-bg-rgb: 244, 67, 54 !important;
     --adw-error-fg-rgb: 31, 31, 31 !important;
@@ -25,15 +25,15 @@
 
 	/* Window */
     --adw-window-bg-rgb: 31, 31, 31 !important;
-    --adw-window-fg-rgb: 255, 255, 255 !important;
+    --adw-window-fg-rgb: 230, 239, 255 !important;
 
 	/* Views - e.g. text view or tree view */
     --adw-view-bg-rgb: 31, 31, 31 !important;
-    --adw-view-fg-rgb: 255, 255, 255 !important;
+    --adw-view-fg-rgb: 230, 239, 255 !important;
 
 	/* Header bar, search bar, tab bar */
     --adw-headerbar-bg-rgb: 31, 31, 31 !important;
-    --adw-headerbar-fg-rgb: 255, 255, 255 !important;
+    --adw-headerbar-fg-rgb: 230, 239, 255 !important;
     --adw-headerbar-border-rgb: 146, 146, 146 !important;
     --adw-headerbar-backdrop-rgb: 31, 31, 31 !important;
     --adw-headerbar-shade-rgb: 0, 0, 0 !important;
@@ -43,12 +43,12 @@
 
 	/* Split pane views */
     --adw-sidebar-bg-rgb: 31, 31, 31 !important;
-    --adw-sidebar-fg-rgb: 255, 255, 255 !important;
+    --adw-sidebar-fg-rgb: 230, 239, 255 !important;
     --adw-sidebar-backdrop-rgb: 146, 146, 146 !important;
     --adw-sidebar-shade-rgb: 0, 0, 0 !important;
     --adw-sidebar-shade-a: 0.36 !important;
     --adw-secondary-sidebar-bg-rgb: 31, 31, 31 !important;
-    --adw-secondary-sidebar-fg-rgb: 255, 255, 255 !important;
+    --adw-secondary-sidebar-fg-rgb: 230, 239, 255 !important;
     --adw-secondary-sidebar-backdrop-rgb: 146, 146, 146 !important;
     --adw-secondary-sidebar-shade-rgb: 0, 0, 0 !important;
     --adw-secondary-sidebar-shade-a: 0.36 !important;
@@ -62,11 +62,11 @@
 
 	/* Dialogs */
     --adw-dialog-bg-rgb: 31, 31, 31 !important;
-    --adw-dialog-fg-rgb: 255, 255, 255 !important;
+    --adw-dialog-fg-rgb: 230, 239, 255 !important;
 
     /* Popovers */
     --adw-popover-bg-rgb: 31, 31, 31 !important;
-    --adw-popover-fg-rgb: 255, 255, 255 !important;
+    --adw-popover-fg-rgb: 230, 239, 255 !important;
     --adw-popover-shade-rgb: 0, 0, 0 !important;
     --adw-popover-shade-a: 0.36 !important;
 
