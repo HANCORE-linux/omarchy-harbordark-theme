@@ -1,8 +1,8 @@
 @define-color selected-text #df7e76;
-@define-color text #ffffff;
+@define-color text #929292;
 @define-color base #1F1F1F;
-@define-color border #929292;
-@define-color foreground #ffffff;
+@define-color border #a99b7a;
+@define-color foreground #929292;
 @define-color background #1F1F1F;
 
 window * {
@@ -59,7 +59,7 @@ window .preview {
     border: 2px solid alpha(@border, 0.4);
     border-radius: 4px;
     background: alpha(@base, 0.5);
-    color: @foreground;
+    color: @text;
     padding: 0px;
     margin: 0px;
     box-shadow: inset 0 0 8px alpha(white, 0.05);
