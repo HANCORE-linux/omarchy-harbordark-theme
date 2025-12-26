@@ -2,57 +2,57 @@
 theme[main_bg]="#1F1F1F"
 
 # Main text color
-theme[main_fg]="#ffffff"
+theme[main_fg]="#e6efff"
 
 # Title color for boxes
-theme[title]="#e18a84"
+theme[title]="#a7a6c6"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#db9e9a"
+theme[hi_fg]="#e75a50"
 
 # Background color of selected item in processes box
-theme[selected_bg]="#929292"
+theme[selected_bg]="#e75a50"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#ffffff"
+theme[selected_fg]="#1F1F1F"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#929292"
+theme[inactive_fg]="#4c4c4c"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#e18a84"
+theme[proc_misc]="#a7a6c6"
 
 # Box outline and divider line color
-theme[cpu_box]="#e75a50"
-theme[mem_box]="#e75a50"
-theme[net_box]="#e75a50"
-theme[proc_box]="#e75a50"
-theme[div_line]="#929292"
+theme[cpu_box]="#99a4af"
+theme[mem_box]="#99a4af"
+theme[net_box]="#99a4af"
+theme[proc_box]="#99a4af"
+theme[div_line]="#99a4af"
 
 # Gradient for all meters and graphs
-theme[temp_start]="#db9e9a"
-theme[temp_mid]="#df7e76"
+theme[temp_start]="#a7a6c6"
+theme[temp_mid]="#ff7783"
 theme[temp_end]="#e75a50"
 
 
-theme[cpu_start]="#db9e9a"
-theme[cpu_mid]="#df7e76"
+theme[cpu_start]="#a7a6c6"
+theme[cpu_mid]="#ff7783"
 theme[cpu_end]="#e75a50"
 
 
-theme[free_start]="#df7e76"
-theme[free_mid]="#dd726a"
-theme[free_end]="#dd726a"
+theme[free_start]="#a7a6c6"
+theme[free_mid]="#ff7783"
+theme[free_end]="#e75a50"
 
 
-theme[cached_start]="#dd726a"
-theme[cached_mid]="#dd726a"
-theme[cached_end]="#dd726a"
+theme[cached_start]="#a99b7a"
+theme[cached_mid]="#a99b7a"
+theme[cached_end]="#a99b7a"
 
 
-theme[available_start]="#db9e9a"
-theme[available_mid]="#db9e9a"
-theme[available_end]="#db9e9a"
+theme[available_start]="#a7a6c6"
+theme[available_mid]="#a7a6c6"
+theme[available_end]="#a7a6c6"
 
 
 theme[used_start]="#e75a50"
@@ -60,11 +60,11 @@ theme[used_mid]="#e75a50"
 theme[used_end]="#e75a50"
 
 
-theme[download_start]="#dd726a"
-theme[download_mid]="#db9e9a"
-theme[download_end]="#df7e76"
+theme[download_start]="#a7a6c6"
+theme[download_mid]="#ff7783"
+theme[download_end]="#e75a50"
 
 
-theme[upload_start]="#dd726a"
-theme[upload_mid]="#db9e9a"
-theme[upload_end]="#df7e76"
+theme[upload_start]="#a7a6c6"
+theme[upload_mid]="#ff7783"
+theme[upload_end]="#e75a50"
