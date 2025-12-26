@@ -10,20 +10,20 @@ return {
                 base00 = "#1F1F1F", -- Default background
                 base01 = "#929292", -- Lighter background (status bars)
                 base02 = "#1F1F1F", -- Selection background
-                base03 = "#929292", -- Comments, invisibles
-                base04 = "#e6efff", -- Dark foreground
-                base05 = "#e6efff", -- Default foreground
-                base06 = "#e6efff", -- Light foreground
-                base07 = "#e6efff", -- Light background
+                base03 = "#A8A8A8", -- Comments, invisibles
+                base04 = "#ffffff", -- Dark foreground
+                base05 = "#ffffff", -- Default foreground
+                base06 = "#ffffff", -- Light foreground
+                base07 = "#ffffff", -- Light background
 
                 -- Accent colors (base08-base0F)
                 base08 = "#F44336", -- Variables, errors, red
                 base09 = "#f44336", -- Integers, constants, orange
-                base0A = "#a99b7a", -- Classes, types, yellow
+                base0A = "#B78955", -- Classes, types, yellow
                 base0B = "#e75a50", -- Strings, green
-                base0C = "#99a4af", -- Support, regex, cyan
-                base0D = "#8484a0", -- Functions, keywords, blue
-                base0E = "#a7a6c6", -- Keywords, storage, magenta
+                base0C = "#e6d690", -- Support, regex, cyan
+                base0D = "#be9d9d", -- Functions, keywords, blue
+                base0E = "#d5c9ac", -- Keywords, storage, magenta
                 base0F = "#a99b7a", -- Deprecated, brown/yellow
             },
         },
