@@ -2,7 +2,7 @@
 theme[main_bg]="#1F1F1F"
 
 # Main text color
-theme[main_fg]="#e6efff"
+theme[main_fg]="#eae8e2"
 
 # Title color for boxes
 theme[title]="#929292"
@@ -65,6 +65,6 @@ theme[download_mid]="#ff7783"
 theme[download_end]="#e75a50"
 
 
-theme[upload_start]="#a7a6c6"
+theme[upload_start]="#929292"
 theme[upload_mid]="#ff7783"
 theme[upload_end]="#e75a50"
