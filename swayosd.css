@@ -3,3 +3,9 @@
 @define-color label #929292;
 @define-color image #a99b7a;
 @define-color progress #e75a50;
+
+
+.osd {
+    border-radius: 5px;
+}
+
