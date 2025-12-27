@@ -11,8 +11,8 @@ return {
 				base01 = "#929292", -- Lighter background (status bars)
 				base02 = "#1F1F1F", -- Selection background
 				base03 = "#d5c9ac", -- Comments, invisibles
-				base04 = "#efebdc", -- Dark foreground
-				base05 = "#ffffff", -- Default foreground
+				base04 = "#6d6d6d", -- Dark foreground
+				base05 = "#efebdc", -- Default foreground
 				base06 = "#efebdc", -- Light foreground
 				base07 = "#b6b6b6", -- Light background
 
@@ -20,7 +20,7 @@ return {
 				base08 = "#F44336", -- Variables, errors, red
 				base09 = "#f44336", -- Integers, constants, orange
 				base0A = "#B78955", -- Classes, types, yellow
-				base0B = "#8f4e35", -- Strings, green
+				base0B = "#a8674e", -- Strings, green
 				base0C = "#e6d690", -- Support, regex, cyan
 				base0D = "#e75a50", -- Functions, keywords, blue
 				base0E = "#77838a", -- Keywords, storage, magenta
