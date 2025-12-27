@@ -1,5 +1,5 @@
 # Harbor-Dark
-Dark Version of Harbor "Light"
+Dark version of [Harbor "Light"](https://github.com/HANCORE-linux/omarchy-harbor-theme)
 
 # Screenshots
 <img width="1920" height="1080" alt="screenshot-2025-12-27_01-11-37" src="https://github.com/user-attachments/assets/2e846b06-732d-4dc2-93b3-a9af3f3dc66f" />
