@@ -31,15 +31,6 @@ return {
 			require("aether").setup(opts)
 			vim.cmd.colorscheme("aether")
 
-			local hi = function(group, spec)
-				vim.api.nvim_set_hl(0, group, spec)
-			end
-
-			hi("nvim.lsp.references", {
-				bg = opts.colors.base02, -- use the theme palette you defined above
-				-- underline = true,      -- optional, if you want it
-			})
-
 			-- Enable hot reload
 			require("aether.hotreload").setup()
 		end,
