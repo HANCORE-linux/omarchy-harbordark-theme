@@ -3,6 +3,7 @@ Dark version of [Harbor "Light"](https://github.com/HANCORE-linux/omarchy-harbor
 
 # Screenshots
 <img width="1920" height="1080" alt="screenshot-2025-12-27_01-11-37" src="https://github.com/user-attachments/assets/2e846b06-732d-4dc2-93b3-a9af3f3dc66f" />
+<img width="1920" height="1080" alt="screenshot-2025-12-27_16-04-24" src="https://github.com/user-attachments/assets/05876204-5240-4674-acb9-845e085736ce" />
 <img width="1920" height="1080" alt="screenshot-2025-12-27_01-01-57" src="https://github.com/user-attachments/assets/f9f60788-d446-4025-b5c2-c26fac555d7d" />
 
 # Installation Theme
