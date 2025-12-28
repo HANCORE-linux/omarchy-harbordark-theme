@@ -2,8 +2,7 @@
 Dark version of [Harbor "Light"](https://github.com/HANCORE-linux/omarchy-harbor-theme) theme with a minimal overall style.
 
 # Screenshots
-<img width="1920" height="1080" alt="screenshot-2025-12-27_01-11-37" src="https://github.com/user-attachments/assets/2e846b06-732d-4dc2-93b3-a9af3f3dc66f" />
-<img width="1920" height="1080" alt="screenshot-2025-12-28_20-39-10" src="https://github.com/user-attachments/assets/b6385c7e-4865-4209-9cd6-065a05b5c764" />
+<img width="1920" height="1080" alt="preview" src="https://github.com/user-attachments/assets/914bdda0-81bf-4cbe-9d60-89b854c84b6a" />
 <img width="1920" height="1080" alt="screenshot-2025-12-28_20-44-35" src="https://github.com/user-attachments/assets/c3761258-efbb-45c9-90ec-d7aaedd6e06b" />
 
 
