@@ -2,10 +2,10 @@
 theme[main_bg]="#1F1F1F"
 
 # Main text color
-theme[main_fg]="#efebdc"
+theme[main_fg]="#77838a"
 
 # Title color for boxes
-theme[title]="#77838a"
+theme[title]="#a99b7a"
 
 # Highlight color for keyboard shortcuts
 theme[hi_fg]="#e75a50"
