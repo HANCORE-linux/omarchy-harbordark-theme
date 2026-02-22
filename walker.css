@@ -1,9 +1,9 @@
 @define-color selected-text #df7e76;
 @define-color text #929292;
-@define-color base #1F1F1F;
+@define-color base #1B1B1B;
 @define-color border #a99b7a;
 @define-color foreground #929292;
-@define-color background #1F1F1F;
+@define-color background #1B1B1B;
 
 window * {
     all: unset;

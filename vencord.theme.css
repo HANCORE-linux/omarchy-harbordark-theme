@@ -7,10 +7,10 @@
     **/
 
     :root {
-        --color00: #191919;
-        --color01: #1f1f1f;
-        --color02: #272727;
-        --color03: #77838a;
+        --color00: #141414;
+        --color01: #191919;
+        --color02: #1f1f1f;
+        --color03: #6d6d6d;
         --color04: #a99b7a;
         --color05: #efebdc;
         --color06: #efebdc;
@@ -442,7 +442,7 @@ div.folderIconWrapper__48112 {
 
 /*--- New Messages Summary Bar Recolor -J--*/
 .newMessagesBar__0f481 {
-    background-color: var(--base0B);
+    background-color: var(--base03);
 
     button.barButtonAlt__0f481 {
         background-color: var(--base02) !important;
