@@ -14,12 +14,11 @@ To install this theme, simply use the omarchy-theme-install command:
 omarchy-theme-install https://github.com/HANCORE-linux/omarchy-harbordark-theme.git
 ```
 
-## Vesktop (Discord) , Superfile,  VSCode, ZED, Spotify , GTK Support etc..
-- all yes! - thanks [imbypass](https://github.com/imbypass/omarchy-hook-theme-set-ex/tree/main) for his hook script!
-- VSCode: click on manage (left down corner) > Themes > Color Theme > search for Omarchy
+#### Waybar
+[LINK](https://github.com/HANCORE-linux/waybar-themes)
 
-## Waybar-Theme
-- in Screenshot im using Waybar config V2.6 - check my Waybar-Themes [Link](https://github.com/HANCORE-linux/waybar-themes)
+#### Recommendations for 3rd-Party App Theming
+Using Bypass Theme-Hook script for GTK, Vesktop, Steam, Spotify etc [LINK](https://github.com/imbypass/omarchy-theme-hook)
 
 ## Acknowledgments
 - This theme was created using [Aether](https://github.com/bjarneo/aether) by [@bjarneo](https://github.com/bjarneo). <br>
