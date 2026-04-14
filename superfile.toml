@@ -30,17 +30,17 @@ correct = '#e75a50'
 error = '#F44336'
 hint = '#6d6d6d'
 cancel = '#F44336'
-gradient_color = ['#1B1B1B', "#929292"]
+gradient_color = ['#1B1B1B', "#817f68"]
 
 # ========= File Panel Special Items =========
 file_panel_top_directory_icon = '#1B1B1B'
-file_panel_top_path = '#929292'
-file_panel_item_selected_fg = '#929292'
+file_panel_top_path = '#817f68'
+file_panel_item_selected_fg = '#817f68'
 file_panel_item_selected_bg = '#1B1B1B'
 
 # ========= Sidebar Special Items =========
 sidebar_title = '#efebdc'
-sidebar_item_selected_fg = '#929292'
+sidebar_item_selected_fg = '#817f68'
 sidebar_item_selected_bg = '#1B1B1B'
 sidebar_divider = '#E1CE98'
 

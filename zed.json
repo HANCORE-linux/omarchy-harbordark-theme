@@ -16,12 +16,12 @@
             "text.placeholder": "#efebdc50",
             "ignored": "#efebdc30",
             "element.hover": "#efebdc30",
-            "ghost_element.hover": "#92929230",
-            "ghost_element.selected": "#92929230",
-            "ghost_element.active": "#92929260",
+            "ghost_element.hover": "#817f6830",
+            "ghost_element.selected": "#817f6830",
+            "ghost_element.active": "#817f6860",
             "border": "#1B1B1B",
-            "editor.highlighted_line.background": "#92929210",
-            "editor.active_line.background": "#92929210",
+            "editor.highlighted_line.background": "#817f6810",
+            "editor.active_line.background": "#817f6810",
             "panel.background": "#1B1B1B90",
             "title_bar.background": "#1B1B1B90",
             "title_bar.inactive_background": "#1B1B1B90",
@@ -31,7 +31,7 @@
             "toolbar.background": "#1B1B1B90",
             "tab_bar.background": "#1B1B1B90",
             "tab.inactive_background": "#1B1B1B90",
-            "tab.active_background": "#92929230",
+            "tab.active_background": "#817f6830",
             "scrollbar.track.background": "transparent",
             "scrollbar.track.border": "#1B1B1B",
             "scrollbar.thumb.background": "#efebdc",
@@ -48,7 +48,7 @@
             "terminal.ansi.magenta": "#77838a",
             "terminal.ansi.cyan": "#6d6d6d",
             "terminal.ansi.white": "#E1CE98",
-            "terminal.ansi.bright_black": "#929292",
+            "terminal.ansi.bright_black": "#817f68",
             "terminal.ansi.bright_red": "#f44336",
             "terminal.ansi.bright_green": "#e75a50",
             "terminal.ansi.bright_yellow": "#a99b7a",
@@ -65,10 +65,10 @@
                 "color": "#e75a50"
               },
               "comment": {
-                "color": "#929292"
+                "color": "#817f68"
               },
               "comment.doc": {
-                "color": "#929292"
+                "color": "#817f68"
               },
               "constant": {
                 "color": "#e75a50"
