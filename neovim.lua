@@ -1,44 +1,61 @@
 return {
-	{
-		"bjarneo/aether.nvim",
-		name = "aether",
-		priority = 1000,
-		opts = {
-			disable_italics = false,
-			colors = {
-				-- Monotone shades (base00-base07)
-				base00 = "#1B1B1B", -- Default background
-				base01 = "#929292", -- Lighter background (status bars)
-				base02 = "#1B1B1B", -- Selection background
-				base03 = "#d5c9ac", -- Comments, invisibles
-				base04 = "#6d6d6d", -- Dark foreground
-				base05 = "#efebdc", -- Default foreground
-				base06 = "#efebdc", -- Light foreground
-				base07 = "#b6b6b6", -- Light background
+  {
+    "bjarneo/aether.nvim",
+    branch = "v2",
+    priority = 1000,
+    lazy = false,
+    opts = {
+      transparent = false,
+      colors = {
+        bg = "#1B1B1B",
+        bg_dark = "#1B1B1B",
+        bg_highlight = "#323232",
+        fg = "#efebdc",
+        fg_dark = "#6d6d6d",
+        comment = "#817f68",
 
-				-- Accent colors (base08-base0F)
-				base08 = "#F44336", -- Variables, errors, red
-				base09 = "#f44336", -- Integers, constants, orange
-				base0A = "#B78955", -- Classes, types, yellow
-				base0B = "#a8674e", -- Strings, green
-				base0C = "#e6d690", -- Support, regex, cyan
-				base0D = "#e75a50", -- Functions, keywords, blue
-				base0E = "#77838a", -- Keywords, storage, magenta
-				base0F = "#a99b7a", -- Deprecated, brown/yellow
-			},
-		},
-		config = function(_, opts)
-			require("aether").setup(opts)
-			vim.cmd.colorscheme("aether")
+        red = "#F44336",
+        orange = "#a99b7a",
+        yellow = "#E1CE98",
+        green = "#e58980",
+        cyan = "#b57614",
+        blue = "#967a7a",
+        purple = "#77838a",
+        magenta = "#9683a1",
+      },
+      on_highlights = function(hl, c)
+        hl.CursorLine = { bg = c.bg_highlight }
+        hl.Visual = { bg = "#e75a50", fg = "#1B1B1B", bold = true }
+        hl.LazySelection = { bg = "#e75a50", fg = "#1B1B1B", bold = true }
+        
+        hl.LspReferenceText  = { bg = c.bg_highlight, underline = true }
+        hl.LspReferenceRead  = { bg = c.bg_highlight, underline = true }
+        hl.LspReferenceWrite = { bg = c.bg_highlight, underline = true, bold = true }
 
-			-- Enable hot reload
-			require("aether.hotreload").setup()
-		end,
-	},
-	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "aether",
-		},
-	},
+        hl["@boolean"] = { fg = c.orange, bold = true }
+        hl["@constant"] = { fg = c.orange }
+        hl["@constant.builtin"] = { fg = c.orange }
+        hl["@keyword.function"] = { fg = c.purple, bold = true }
+        hl["@function"] = { fg = c.blue }
+        hl["@module"] = { fg = c.purple }
+        hl["@property"] = { fg = c.cyan }
+        hl["@type.builtin"] = { fg = c.yellow }
+        hl["@string"] = { fg = c.green }
+        hl["@keyword"] = { fg = c.purple }
+        hl["@variable"] = { fg = c.fg }
+
+        hl.WinSeparator = { fg = "#323232" }
+        hl.VertSplit = { fg = "#323232" }
+
+        hl["@lsp.type.parameter"] = { fg = c.fg, italic = true }
+        hl["@lsp.type.variable"] = { fg = c.fg }
+        hl["@lsp.type.boolean"] = { fg = c.orange, bold = true }
+      end,
+    },
+    config = function(_, opts)
+      require("aether").setup(opts)
+      require("aether.hotreload").setup()
+      vim.cmd.colorscheme("aether")
+    end,
+  },
 }
