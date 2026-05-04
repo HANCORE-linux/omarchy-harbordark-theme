@@ -67,4 +67,6 @@ window .preview {
     line-height: 1em;
 }
 
-
+child:selected .item-box {
+background-color: @base;
+}
