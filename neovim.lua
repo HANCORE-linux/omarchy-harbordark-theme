@@ -1,61 +1,68 @@
 return {
   {
     "bjarneo/aether.nvim",
-    branch = "v2",
+    branch = "v3",
+    name = "aether",
     priority = 1000,
-    lazy = false,
     opts = {
       transparent = false,
       colors = {
-        bg = "#1B1B1B",
-        bg_dark = "#1B1B1B",
-        bg_highlight = "#323232",
-        fg = "#efebdc",
-        fg_dark = "#C0AF7F",
-        comment = "#817f68",
+        bg         = "#1B1B1B",
+        dark_bg    = "#1B1B1B",
+        darker_bg  = "#141414",
+        lighter_bg = "#323232",
 
-        red = "#F44336",
-        orange = "#e67e22",
-        yellow = "#a99b7a",
-        green = "#e75a50",
-        cyan = "#6d6d6d",
-        blue = "#e58980",
-        purple = "#9683a1",
-        magenta = "#77838a",
+        fg         = "#efebdc",
+        dark_fg    = "#C0AF7F",
+        light_fg   = "#f4f2e8",
+        bright_fg  = "#f4f2e8",
+        muted      = "#817f68",
+
+        red        = "#F44336",
+        orange     = "#e67e22",
+        yellow     = "#E1CE98",
+        green      = "#a99b7a",
+        cyan       = "#77868a",
+        blue       = "#9ba2a6",
+        purple     = "#9683a1",
+        brown      = "#e58980",
+
+        bright_red    = "#F44336",
+        bright_yellow = "#E1CE98",
+        bright_green  = "#a99b7a",
+        bright_cyan   = "#77868a",
+        bright_blue   = "#9ba2a6",
+        bright_purple = "#9683a1",
+
+        accent               = "#e75a50",
+        cursor               = "#C0AF7F",
+        foreground           = "#efebdc",
+        background           = "#1B1B1B",
+        selection            = "#323232",
+        selection_foreground = "#efebdc",
+        selection_background = "#1B1B1B",
       },
       on_highlights = function(hl, c)
-        hl.CursorLine = { bg = c.bg_highlight }
-        hl.Visual = { bg = "#e75a50", fg = "#1B1B1B", bold = true }
-        hl.LazySelection = { bg = "#e75a50", fg = "#1B1B1B", bold = true }
-        
-        hl.LspReferenceText  = { bg = c.bg_highlight, underline = true }
-        hl.LspReferenceRead  = { bg = c.bg_highlight, underline = true }
-        hl.LspReferenceWrite = { bg = c.bg_highlight, underline = true, bold = true }
-
-        hl["@boolean"] = { fg = c.orange, bold = true }
-        hl["@constant"] = { fg = c.orange }
-        hl["@constant.builtin"] = { fg = c.orange }
-        hl["@keyword.function"] = { fg = c.purple, bold = true }
-        hl["@function"] = { fg = c.blue }
-        hl["@module"] = { fg = c.purple }
-        hl["@property"] = { fg = c.cyan }
-        hl["@type.builtin"] = { fg = c.yellow }
-        hl["@string"] = { fg = c.green }
-        hl["@keyword"] = { fg = c.purple }
-        hl["@variable"] = { fg = c.fg }
-
-        hl.WinSeparator = { fg = "#323232" }
-        hl.VertSplit = { fg = "#323232" }
-
-        hl["@lsp.type.parameter"] = { fg = c.fg, italic = true }
-        hl["@lsp.type.variable"] = { fg = c.fg }
-        hl["@lsp.type.boolean"] = { fg = c.orange, bold = true }
+        hl.CursorLine = { bg = "#323232" }
+        hl.CursorLineNr = { fg = c.orange, bold = true }
+        hl.LspReferenceText = { bg = c.selection, fg = c.bright_fg }
+        hl.LspReferenceRead = hl.LspReferenceText
+        hl.LspReferenceWrite = hl.LspReferenceText
+        hl.SnacksPickerDir         = { fg = c.muted }
+        hl.SnacksPickerPathHidden  = { fg = c.muted }
+        hl.SnacksPickerPathIgnored = { fg = c.muted }
+        hl.SnacksPickerListCursorLine = { bg = "#323232" }
       end,
     },
     config = function(_, opts)
       require("aether").setup(opts)
-      require("aether.hotreload").setup()
       vim.cmd.colorscheme("aether")
     end,
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "aether",
+    },
   },
 }
