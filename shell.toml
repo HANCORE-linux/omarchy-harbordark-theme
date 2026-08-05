@@ -12,7 +12,7 @@ size-horizontal = 26
 size-vertical = 28
 
 [hyprland]
-active-border = "rgba(a99b7aee) rgba(1B1B1Bee) rgba(1B1B1Bee) rgba(a99b7aee) 0deg"
+active-border = "rgba(a99b7aee) rgba(1B1B1Bee) rgba(a99b7aee) 0deg"
 active-border-foreground = "#A99B7A"
 
 [controls]
@@ -130,8 +130,8 @@ background-alpha = 0.72
 text = "#EFEBDC"
 placeholder = "#EFEBDCB3"
 text-error = "#F44336"
-border = "hyprland.active-border"
-border-active = "hyprland.active-border"
+border = "#A99B7A"
+border-active = "#A99B7A"
 border-error = "#F44336"
 border-alpha = 1.0
 border-width = 2
